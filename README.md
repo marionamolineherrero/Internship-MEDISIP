@@ -1,13 +1,24 @@
-**Preliminary Measurements to Guide the Development of a Standing CT**
-**Code files**
+# Internship-MEDISIP: Preliminary Measurements to Guide the Development of a Standing CT
 
-- Study2.1.ipynb: Analyzes the camera tracking error and spatial distortions using the first (ceiling-mounted) configuration.
-- Study2.2.ipynb: Analyzes the tracking error using the second (platform-mounted) configuration and plots participant kinematic results.
+## Code Files
 
-Folders with participants have their names and the trials 1 through 6: (ann, jose, jens, mariona, luca)
-1. EYES OPEN SUPPORTED
-2. EYES CLOSED SUPPORTED
-3. EYES OPEN UNSUPPORTED
-4. EYES CLOSED UNSUPPORTED
-5. STATIC 20 SECOND SUPPORTED
-6. STATIC 20 SECOND UNSUPPORTED
+* **`Study2.1.ipynb`**: Analyzes the camera tracking error and spatial distortions using the **first configuration** (ceiling-mounted).
+* **`Study2.2.ipynb`**: Analyzes the tracking error using the **second configuration** (platform-mounted) and plots participant kinematic results.
+
+---
+
+## Data Structure & Trials
+
+Participant data is organized into folders named after each participant: 
+`ann`, `jose`, `jens`, `mariona`, and `luca`.
+
+Each participant folder contains data for **Trials 1 through 6**, structured as follows:
+
+| Trial | Condition | Support Status |
+| :---: | :--- | :--- |
+| **1** | Eyes Open | Supported |
+| **2** | Eyes Closed | Supported |
+| **3** | Eyes Open | Unsupported |
+| **4** | Eyes Closed | Unsupported |
+| **5** | Static (20 Seconds) | Supported |
+| **6** | Static (20 Seconds) | Unsupported |
