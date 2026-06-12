@@ -1,6 +1,6 @@
 # Internship-MEDISIP: Preliminary Measurements to Guide the Development of a Standing CT
 
-50 SECONDS ROTATION (3000 speed in arduino)
+50 SECOND ROTATION (3000 speed in arduino)
 
 ## Code Files
 
